@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00CCFF" >
+
+    
+    
+     <Spinner
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:background="#FE2E2E"
+        android:popupBackground="@android:color/black"
+        
+       />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="39dp"
+        android:textSize="20dp"
+        android:text="Final Status"
+        android:onClick="Final_Status" />
+    
+    
+     <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+       
+         >
+    
+  
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editText1"
+         android:layout_below="@+id/button2"
+         android:layout_marginLeft="58dp"
+         android:layout_marginTop="34dp"
+         android:text=""
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     
+       </ScrollView>
+
+     <Button
+         android:id="@+id/button3"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/button2"
+         android:textSize="20dp"
+         android:onClick="back"
+         android:text="Go Back" />
+
+     <Button
+         android:id="@+id/button2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/button1"
+         android:textSize="20dp"
+         android:onClick="Every_Transaction_Status"
+         android:text="Every Transation Status" />
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.noborrowconflict"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    <uses-permission android:maxSdkVersion="19" android:name="android.permission.VIBRATE"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.noborrowconflict.Front_database"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name="com.example.noborrowconflict.MainActivity"
+            android:label="@string/app_name" >
+         
+        </activity>
+        
+            <activity
+            android:name="com.example.noborrowconflict.netmoney"
+            android:label="@string/app_name" >
+         
+        </activity>
+        
+            
+              <activity
+            android:name="com.example.noborrowconflict.developer"
+            android:label="@string/app_name" >
+         
+        </activity>
+        
+             <activity
+            android:name="com.example.noborrowconflict.clearhistory"
+            android:label="@string/app_name" >
+         
+        </activity>
+        
+        
+             <activity
+            android:name="com.example.noborrowconflict.delete"
+            android:label="@string/app_name" >
+         
+        </activity>
+         
+         
+        <activity
+            android:name="com.example.noborrowconflict.GivingBorrow"
+            android:label="@string/app_name" >
+         
+        </activity>
+         
+         
+          <activity
+            android:name="com.example.noborrowconflict.signup"
+            android:label="@string/app_name" >
+         
+        </activity>
+        
+        
+         
+        
+        <activity
+            android:name="com.example.noborrowconflict.TakingBorrow"
+            android:label="@string/app_name" >
+         
+        </activity>
+        
+         <activity
+            android:name="com.example.noborrowconflict.Status"
+            android:label="@string/app_name" >
+         
+        </activity>
+        
+           <activity
+            android:name="com.example.noborrowconflict.AddFriend"
+            android:label="@string/app_name" >
+         
+        </activity>
+    </application>
+
+</manifest>
